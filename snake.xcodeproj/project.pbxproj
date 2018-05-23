@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843CE0F820B2C02D003B65C3 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843CE0F720B2C02D003B65C3 /* GameManager.swift */; };
 		84CFF23820A56EE4007D7989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFF23720A56EE4007D7989 /* AppDelegate.swift */; };
 		84CFF23A20A56EE4007D7989 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84CFF23920A56EE4007D7989 /* GameScene.sks */; };
-		84CFF23C20A56EE4007D7989 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84CFF23B20A56EE4007D7989 /* Actions.sks */; };
 		84CFF23E20A56EE4007D7989 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFF23D20A56EE4007D7989 /* GameScene.swift */; };
 		84CFF24020A56EE4007D7989 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFF23F20A56EE4007D7989 /* GameViewController.swift */; };
 		84CFF24320A56EE4007D7989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CFF24120A56EE4007D7989 /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843CE0F720B2C02D003B65C3 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		84CFF23420A56EE4007D7989 /* snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CFF23720A56EE4007D7989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CFF23920A56EE4007D7989 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		84CFF23B20A56EE4007D7989 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		84CFF23D20A56EE4007D7989 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		84CFF23F20A56EE4007D7989 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		84CFF24220A56EE4007D7989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,8 +62,8 @@
 			children = (
 				84CFF23720A56EE4007D7989 /* AppDelegate.swift */,
 				84CFF23920A56EE4007D7989 /* GameScene.sks */,
-				84CFF23B20A56EE4007D7989 /* Actions.sks */,
 				84CFF23D20A56EE4007D7989 /* GameScene.swift */,
+				843CE0F720B2C02D003B65C3 /* GameManager.swift */,
 				84CFF23F20A56EE4007D7989 /* GameViewController.swift */,
 				84CFF24120A56EE4007D7989 /* Main.storyboard */,
 				84CFF24420A56EE4007D7989 /* Assets.xcassets */,
@@ -136,7 +136,6 @@
 				84CFF23A20A56EE4007D7989 /* GameScene.sks in Resources */,
 				84CFF24520A56EE4007D7989 /* Assets.xcassets in Resources */,
 				84CFF24820A56EE4007D7989 /* LaunchScreen.storyboard in Resources */,
-				84CFF23C20A56EE4007D7989 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CFF23E20A56EE4007D7989 /* GameScene.swift in Sources */,
+				843CE0F820B2C02D003B65C3 /* GameManager.swift in Sources */,
 				84CFF24020A56EE4007D7989 /* GameViewController.swift in Sources */,
 				84CFF23820A56EE4007D7989 /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = snake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snake.snake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = snake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = snake.snake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
